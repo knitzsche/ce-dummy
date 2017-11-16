@@ -1,0 +1,12 @@
+name:  ce-dummy
+version: '0.2' # just for humans, typically '1.2+git' or '1.3.2'
+summary: Dummy snap for test purpopose
+description: |
+  Just a dummy snap that does nothing for test purposes.
+
+grade: stable
+confinement: strict
+
+parts:
+  my-part:
+    plugin: nil
